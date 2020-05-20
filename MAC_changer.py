@@ -6,6 +6,9 @@ import re
 
 # A simple script for changing an interface Mac Address
 
+# Usage :  $ python MAC_changer.py -i <interface> -m <mac address>
+# Use --help for help
+
 # Get User Input function
 def get_arguments():
     parser = optparse.OptionParser()
